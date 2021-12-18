@@ -1,0 +1,156 @@
+@import 'font.css';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background: url(./imgs/bg.jpg) no-repeat center /cover;
+    height: 672px;
+}
+nav{
+    display: flex;
+    margin: auto;
+    width: 1110px;
+    justify-content: space-between;
+}
+nav img{
+    margin: 10px 0 0 17px;
+}
+nav ul{
+    display: flex;
+}   
+nav ul li{
+    padding: 24px 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #4d4d4d;
+    font-size: 16px;
+    transition: color 0.1s , background 0.5s;
+}
+nav ul li:hover{
+    background: #c1bc45;
+    color: #f7f7f7;
+}
+h1{
+    color: #c0bc45;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 185px;
+    font-size: 100px;
+    line-height: 72px;
+}
+.header_content{
+    width: 1110px;
+    margin: auto;
+}
+.header_content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 17px;
+    color: #4d4d4d;
+}
+.header_content p strong{
+    color: #000000;
+    font-weight: 900;
+}
+
+main{
+    width: 1110px;
+    margin: 88px auto 129px;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width:540px;
+}
+.title{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 18px;
+    padding-top: 24px ;
+}
+.text{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding-top: 17px;
+    line-height: 27px;
+    color: #333333;
+}
+.right{
+    width: 540px;
+}
+.item{
+    border: 4px solid #aeaeae;
+    display: flex;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.item:hover{
+    border: 4px solid #f0efb6;
+}
+.item_info h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 16px;
+    margin: 15px 0 19px;
+
+}
+.item img{
+    margin: 13px 38px 14px 23px;
+}
+.item_info p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #919191;
+    line-height: 22px;
+}
+
+footer{
+    background: #eee9e9;
+    
+}
+.footer_nav{
+    width: 1110px;
+    margin: auto ;
+    display: flex;
+    align-items: center;
+    padding: 107px 0 65px;
+    justify-content: space-between;
+}
+footer ul{
+    display: flex;
+}
+.footer_info{
+    text-align: center;
+}
+.footer_nav ul li{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 16px;
+    color: #4d4d4d;
+    padding: 0 23px 22px 23px;
+    transition: 0.5s;
+    border-bottom: 4px solid transparent;
+}
+.footer_nav ul li:hover{
+    color: #bc3333;
+    border-bottom: 4px solid #ff0000 ;
+}
+
+
+h4{
+    font-family: 'Roboto-Black';
+}
